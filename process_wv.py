@@ -32,7 +32,7 @@ import aug_util as aug
 import csv
 
 """
-  A script that processes WorldView 3 imagery from Digital Globe.  
+  A script that processes xView imagery. 
 
   Args:
       image_folder: A folder path to the directory storing xView .tif files

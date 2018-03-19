@@ -21,7 +21,7 @@ import json
 from tqdm import tqdm
 
 """
-WorldView3 data processing helper functions for use in data processing.
+xView processing helper functions for use in data processing.
 """
 
 def scale(x,range1=(0,0),range2=(0,0)):
