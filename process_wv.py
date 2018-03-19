@@ -33,7 +33,6 @@ import csv
 
 """
   A script that processes xView imagery. 
-
   Args:
       image_folder: A folder path to the directory storing xView .tif files
         ie ("xView_data/")
