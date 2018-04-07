@@ -177,8 +177,8 @@ if __name__ == "__main__":
 
             im,box,classes_final = wv.chip_image(arr,coords[chips==name],classes[chips==name],it)
 
-            #Shuffle images & boxes all at once
-            ses_final = shuffle_images_and_boxes_classes(im,box,classes_final)
+            #Shuffle images & boxes all at once. Comment out the line below if you don't want to shuffle images
+            im,box,classes_final = shuffle_images_and_boxes_classes(im,box,classes_final)
             split_ind = int(im.shape[0] * args.test_percent)
 
             for idx, image in enumerate(im):
